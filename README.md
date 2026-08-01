@@ -140,6 +140,7 @@ Proyecto desarrollado únicamente con fines académicos.
 
 Esta funcionalidad permite registrar nuevas tareas indicando título, descripción, fecha de vencimiento y estado.
 
+
 ## Búsqueda de tareas
 
 La aplicación incluye un buscador que permite localizar tareas por título, descripción, estado o fecha, facilitando la administración de la información.
@@ -147,3 +148,8 @@ La aplicación incluye un buscador que permite localizar tareas por título, des
 ## Actualización de tareas
 
 El sistema permite modificar la información de una tarea existente, manteniendo los datos actualizados.
+
+## Eliminación de tareas
+
+El usuario puede eliminar tareas registradas mediante una confirmación antes de borrar la información.
+
