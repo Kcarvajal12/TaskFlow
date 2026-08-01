@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>TaskFlow | Gestión de Tareas</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <script src="./js/app.js" defer></script>
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <div class="contenedor">
+            <h1>TaskFlow</h1>
+            <p>Sistema de gestión de tareas</p>
+        </div>
+    </header>
+
+    <main class="contenedor">
+
+        <section class="formulario-seccion">
+
+            <h2>Registrar tarea</h2>
+
+            <form id="formulario-tarea">
+
+                <input
+                    type="hidden"
+                    id="tarea-id"
+                >
+
+                <div class="campo">
+                    <label for="titulo">
+                        Título
+                    </label>
+
+                    <input
+                        type="text"
+                        id="titulo"
+                        placeholder="Escribe el título de la tarea"
+                        maxlength="80"
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="descripcion">
+                        Descripción
+                    </label>
+
+                    <textarea
+                        id="descripcion"
+                        placeholder="Describe la tarea"
+                        maxlength="300"
+                        required
+                    ></textarea>
+                </div>
+
+                <div class="campo">
+                    <label for="fecha">
+                        Fecha de vencimiento
+                    </label>
+
+                    <input
+                        type="date"
+                        id="fecha"
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="estado">
+                        Estado
+                    </label>
+
+                    <select id="estado" required>
+                        <option value="Pendiente">
+                            Pendiente
+                        </option>
+
+                        <option value="Completada">
+                            Completada
+                        </option>
+                    </select>
+                </div>
+
+                <button
+                    type="submit"
+                    id="boton-guardar"
+                >
+                    Guardar tarea
+                </button>
+
+                <button
+                    type="button"
+                    id="boton-cancelar"
+                    class="oculto"
+                >
+                    Cancelar edición
+                </button>
+
+            </form>
+
+        </section>
+
+        <section class="lista-seccion">
+
+            <div class="lista-encabezado">
+
+                <h2>Mis tareas</h2>
+
+                <input
+                    type="search"
+                    id="buscador"
+                    placeholder="Buscar tarea..."
+                    autocomplete="off"
+                >
+
+            </div>
+
+            <div
+                id="lista-tareas"
+                class="lista-tareas"
+            >
+                <p id="mensaje-vacio">
+                    No hay tareas registradas.
+                </p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            Desarrollado por Kendra Carvajal |
+            Matrícula: 2024-2572
+        </p>
+    </footer>
+
+</body>
+</html>
