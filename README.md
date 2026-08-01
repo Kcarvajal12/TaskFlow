@@ -139,3 +139,7 @@ Proyecto desarrollado únicamente con fines académicos.
 ## Registro de tareas
 
 Esta funcionalidad permite registrar nuevas tareas indicando título, descripción, fecha de vencimiento y estado.
+
+## Eliminación de tareas
+
+El usuario puede eliminar tareas registradas mediante una confirmación antes de borrar la información.
