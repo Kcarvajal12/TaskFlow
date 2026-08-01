@@ -153,3 +153,7 @@ El sistema permite modificar la información de una tarea existente, manteniendo
 
 El usuario puede eliminar tareas registradas mediante una confirmación antes de borrar la información.
 
+## Corrección del formato de fecha
+
+Se ajustó la visualización de la fecha para mostrarla en formato DD/MM/AAAA.
+
