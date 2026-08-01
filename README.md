@@ -135,3 +135,7 @@ ITLA
 ## Licencia
 
 Proyecto desarrollado únicamente con fines académicos.
+
+## Registro de tareas
+
+Esta funcionalidad permite registrar nuevas tareas indicando título, descripción, fecha de vencimiento y estado.
