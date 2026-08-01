@@ -161,3 +161,6 @@ Se ajustó la visualización de las fechas de vencimiento para mostrarlas en for
 
 Se verificó la corrección del formato de fecha para mejorar la presentación de las tareas.
 
+### Validación del Hotfix
+
+Se verificó correctamente la implementación del hotfix para el formato de fecha utilizando la metodología Git Flow.
