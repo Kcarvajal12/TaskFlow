@@ -130,7 +130,6 @@ Carrera: Desarrollo de Software
 
 ITLA
 
----
 
 ## Licencia
 
