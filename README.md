@@ -157,3 +157,7 @@ El usuario puede eliminar tareas registradas mediante una confirmación antes de
 
 Se ajustó la visualización de las fechas de vencimiento para mostrarlas en formato DD/MM/AAAA, facilitando su lectura para los usuarios.
 
+### Nota
+
+Se verificó la corrección del formato de fecha para mejorar la presentación de las tareas.
+
