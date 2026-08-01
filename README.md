@@ -164,3 +164,7 @@ Se verificó la corrección del formato de fecha para mejorar la presentación d
 ### Validación del Hotfix
 
 Se verificó correctamente la implementación del hotfix para el formato de fecha utilizando la metodología Git Flow.
+
+### Revisión final
+
+Se confirmó el funcionamiento correcto del formato de fecha DD/MM/AAAA en la aplicación TaskFlow.
