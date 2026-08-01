@@ -143,3 +143,7 @@ Esta funcionalidad permite registrar nuevas tareas indicando título, descripci�
 ## Búsqueda de tareas
 
 La aplicación incluye un buscador que permite localizar tareas por título, descripción, estado o fecha, facilitando la administración de la información.
+
+## Actualización de tareas
+
+El sistema permite modificar la información de una tarea existente, manteniendo los datos actualizados.
